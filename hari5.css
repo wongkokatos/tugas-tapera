@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    gap: 10px;
+}
+.static{
+    background-color:blue ;
+    width: 400px;
+    height: 300px;
+    position: static;
+    /* position: static; */
+}
+.relative{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    /* position: relative; */
+}
+.absolute{
+    background-color:green;
+    width: 400px;
+    height: 300px;
+    /* position: absolute; */
+}
+.fixed{
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 300px;
+    /* position: fixed; */
+}
+.sticky{
+    background-color: yellow;
+    width: 400px;
+    height: 300px;
+    /* position: sticky; */
+}

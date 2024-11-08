@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(255, 116, 2);
+}
+.name{
+color: #0c0c0c;
+text-align: center;
+}
+h1{
+    color: rgb(189, 4, 4);
+    text-align: center;
+}
+.object{
+    color: blueviolet;
+    text-align: center;
+}
+.ppp{
+    color: darkgoldenrod;
+    text-align: center;
+} 
+.margin{
+    border: 5px;
+    color: black;
+    border-style: solid;
+    width: 400px;
+    height: 200px;
+    background-color:rgb(163, 91, 91) ;
+}
+.padding{
+    border: 5px;
+    color: black;
+    border-style:solid ;
+    width: 100px;
+    height: 50px;
+    background-image: url(./asset/tugas\ 1\ HTML/images.jpg) ;
+
+}
+/* menjadikan kanan dan kiri (berdampingan) */
+.box{
+    display: flex; 
+    gap: 100px;
+}
